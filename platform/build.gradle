@@ -10,7 +10,7 @@ dependencies {
     constraints {
         api(group: 'com.spotify', name: 'scio-core_2.13', version: '0.13.0')
         api(group: 'com.spotify', name: 'scio-test_2.13', version: '0.13.0')
-        api(group: 'org.scalatest', name: 'scalatest_2.13', version: '3.2.16')
+        api(group: 'org.scalatest', name: 'scalatest_2.13', version: '3.3.0-SNAP4')
         api(group: 'org.scalatestplus', name: 'junit-4-13_2.13', version: '3.2.16.0')
     }
 }
