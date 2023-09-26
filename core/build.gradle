@@ -9,7 +9,7 @@ repositories {
 
 dependencies {
     implementation platform(project(":platform"))
-    implementation 'org.scala-lang:scala-library:2.13.11'
+    implementation 'org.scala-lang:scala-library:2.13.12'
     implementation group: 'com.spotify', name: 'scio-core_2.13'
 
     testImplementation group: 'com.spotify', name: 'scio-test_2.13'
