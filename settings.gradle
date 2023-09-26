@@ -1,0 +1,3 @@
+rootProject.name = 'dependabot-gradle-test'
+include 'platform'
+include 'core'
