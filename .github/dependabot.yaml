@@ -1,0 +1,15 @@
+version: 2
+
+registries:
+  maven-central:
+    type: maven-repository
+    url: https://repo.maven.apache.org/maven2
+
+updates:
+  - package-ecosystem: "gradle"
+    directory: "/"
+    registries:
+      - maven-central
+    target-branch: "main"
+    schedule:
+      interval: "weekly"
