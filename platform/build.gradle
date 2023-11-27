@@ -8,8 +8,8 @@ repositories {
 
 dependencies {
     constraints {
-        def scioCore = api(group: 'com.spotify', name: 'scio-core_2.13', version: '0.13.3')
-        def scioTest = api(group: 'com.spotify', name: 'scio-test_2.13', version: '0.13.3')
+        def scioCore = api(group: 'com.spotify', name: 'scio-core_2.13', version: '0.13.6')
+        def scioTest = api(group: 'com.spotify', name: 'scio-test_2.13', version: '0.13.6')
 
         scioCore
         scioTest
